@@ -20,5 +20,7 @@ if submit:
         ans = divide(a,b)
     elif operator == '%':
         ans = mod(a,b)
+    elif operator == '**':
+        ans = exp(a,b)
     
     st.write(f'answer is {ans}')

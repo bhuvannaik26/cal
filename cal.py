@@ -19,3 +19,5 @@ def simple_interest(a,b,c):
 def total_amnt(a,b,c):
     ans1 = (a*b*c)/100
     return ans1+a
+def exp(a,b):
+    return a**b
