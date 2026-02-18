@@ -5,7 +5,7 @@ st.header('Calculator')
 st.write("This is the app for calculation")
 a = st.number_input("Enter first number:")
 b = st.number_input("Enter second number:")
-operator = st.selectbox("operator",['+','-','*','/','%'])
+operator = st.selectbox("operator",['+','-','*','/','**','%'])
 
 submit = st.button('Answer')
 st.write(submit)
